@@ -7,9 +7,6 @@
 .children {
   width: 100%;
   margin-left: 100px;
-  @media #{$break-md} {
-    margin-left: 0px;
-  }
 }
 .brick {
   .caption {
