@@ -43,24 +43,32 @@ export default () => (
             />
           </div>
         </div>
-        <div className="gutter-33">
-          <Brick
-            title="The Mess 16mm Film"
-            source="/static/the_mess/theMess.gif"
-            link="/themess"
-          />
+        <div className="row">
+          <div className="gutter-50">
+            <Brick
+              title="The Mess 16mm Film"
+              source="/static/the_mess/theMess.gif"
+              link="/themess"
+            />
+          </div>
         </div>
-        <div className="gutter-33">
-          <Brick
-            title="Southwest Colorado Photojournalism"
-            source="/static/sw-colorado/IMG_9838.png"
-            link="/swcolorado"
-          />
-          <Brick
-            title="I Remember 16mm Film"
-            source="/static/i_remember/hero.png"
-            link="/iremember"
-          />
+        <div className="row">
+          <div className="gutter-50">
+            <Brick
+              title="Southwest Colorado Photojournalism"
+              source="/static/sw-colorado/IMG_9838.png"
+              link="/swcolorado"
+            />
+          </div>
+        </div>
+        <div className="row">
+          <div className="gutter-50">
+            <Brick
+              title="I Remember 16mm Film"
+              source="/static/i_remember/hero.png"
+              link="/iremember"
+            />
+          </div>
         </div>
       </div>
     </Layout>
